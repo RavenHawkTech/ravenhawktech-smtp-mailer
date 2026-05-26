@@ -2,6 +2,12 @@
 
 RavenHawkTech SMTP Mailer is a lightweight WordPress SMTP relay and diagnostics plugin built for RavenHawkTech sites and plugins. It hooks into WordPress `wp_mail()` so WordPress core, RavenHawkTech plugins, and compatible third-party plugins can send mail through a configured SMTP account instead of relying on the host's default PHP mail behavior.
 
+This repository contains the RavenHawkTech SMTP Mailer plugin package, update metadata, screenshots directory, and repository documentation.
+
+## Current Version
+
+**v1.0.5**
+
 The plugin is intended to make email delivery easier to troubleshoot, especially on shared hosting where SMTP issues may involve DNS, Cloudflare proxying, TLS settings, authentication methods, or provider-side restrictions.
 
 ## What it does
@@ -155,6 +161,34 @@ Examples include:
 7. Run Full send test.
 8. Review the Sent Mail Log.
 
+## Repository Structure
+
+This repository tracks the SMTP Mailer plugin package, update metadata, screenshots, and documentation.
+
+```text
+/
+├─ README.md
+├─ SECURITY.md
+├─ COPYRIGHT.md
+├─ releases/
+│  └─ ravenhawktech-smtp-mailer.zip
+├─ screenshots/
+│  └─ README.md
+└─ updates/
+   └─ rht-smtp-mailer.json
+```
+
+The release package contains the full WordPress plugin folder, including the plugin PHP file and RavenHawkTech admin integration.
+
+## Installation
+
+1. In WordPress Admin, go to **Plugins → Add Plugin**.
+2. Click **Upload Plugin**.
+3. Choose the RavenHawkTech SMTP Mailer package.
+4. Click **Install Now**.
+5. Activate the plugin.
+6. Open **RavenHawkTech → SMTP Mailer** in WordPress Admin.
+
 ## Future releases
 
 Planned future work includes tighter integration with other RavenHawkTech plugins so they can detect and use RavenHawkTech SMTP Mailer more intelligently.
@@ -168,6 +202,10 @@ Potential future enhancements:
 - Add resend support for failed plugin-generated emails.
 - Add exportable diagnostics bundles for support and troubleshooting.
 - Add optional masking/redaction controls for diagnostic output.
+
+## RavenHawkTech
+
+Website: https://ravenhawktech.com
 
 ## License
 
