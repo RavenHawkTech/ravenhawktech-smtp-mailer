@@ -171,7 +171,7 @@ This repository tracks the SMTP Mailer plugin package, update metadata, screensh
 ├─ SECURITY.md
 ├─ COPYRIGHT.md
 ├─ releases/
-│  └─ ravenhawktech-smtp-mailer.zip
+│  └─ ravenhawk-smtp-mailer.zip
 ├─ screenshots/
 │  └─ README.md
 └─ updates/
