@@ -3,14 +3,14 @@
   "slug": "wordpress-smtp-mailer",
   "version": "1.0.5",
   "homepage": "https://github.com/RavenHawkTech/wordpress-smtp-mailer",
-  "download_url": "https://github.com/RavenHawkTech/wordpress-smtp-mailer/releases/latest",
+  "download_url": "https://github.com/RavenHawkTech/wordpress-smtp-mailer/releases/download/v1.0.5/ravenhawk-smtp-mailer.zip",
   "requires": "6.2",
   "tested": "6.8",
   "requires_php": "8.0",
   "last_updated": "2026-05-26",
   "sections": {
     "description": "RavenHawkTech SMTP Mailer for WordPress with SMTP relay, diagnostics, and mail logging.",
-    "installation": "Upload and activate the plugin through WordPress Admin.",
+    "installation": "Upload and activate the plugin through WordPress Admin using ravenhawk-smtp-mailer.zip.",
     "changelog": "v1.0.5 adds advanced diagnostics, RavenHawkTech admin integration, authentication selection, mail logging, and troubleshooting improvements."
   }
 }
